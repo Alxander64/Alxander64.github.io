@@ -17,8 +17,7 @@ theme_settings:
   header_text: > #two or three lines to describe your site
      <h1>OG Reviews</h1>
   header_text_feature_image: assets/img/feature-imgs/triangular.jpeg
-  footer_text: >
-   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+  footer_text: # > Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
   # Icons
   rss: true  # Make sure you created a feed.xml with feed.xml layout
@@ -29,7 +28,7 @@ theme_settings:
   facebook:
   flickr:
   gitlab:
-  github: "sylhare"
+  github: # username
   google_plus:
   instagram:
   keybase:
@@ -49,7 +48,7 @@ theme_settings:
   share_buttons:
     facebook: true
     twitter: true
-    google_plus: true
+    google_plus:
     tumblr:
     pinterest:
     pocket:
