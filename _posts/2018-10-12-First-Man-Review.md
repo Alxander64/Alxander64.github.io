@@ -8,7 +8,6 @@ excerpt_separator: <!--more-->
 ---
 
 > 2018’s annual space movie hits closer to home as a dramatic retelling of Neil Armstrong’s journey to be the first man on the Moon.
-
 <!--more-->
 
 # Technical Achievement
