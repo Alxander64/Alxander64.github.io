@@ -13,8 +13,8 @@
     /* --- Responsive --- */
     @media screen and (max-width: 850px) {
         background-size: 100% auto;
-    } 
-    
+    }
+
     //For white images
     p,
     a,
@@ -33,7 +33,7 @@
 }
 
 #main {
-    background-position: 100% 0, 0 center, center top;
+    background-position: 100% 0, 0 center, center top; // Deals with position of images
 }
 
 // Post listing
