@@ -26,4 +26,4 @@ The film covers almost a ten-year period, spanning from Project Gemini to the Mo
 
 While it’s a story that has been told time and time again, *First Man* never fails to capture its audience’s attention through its stunning imagery, crisp sound design, and its wonderful performances from its two leads. The moon landing sequence alone makes this a must-see in full IMAX glory. Despite the lacklustre supporting cast, disjointed timeline, and perhaps unnecessary family drama, *First Man* is one giant leap for cinema.
 
-### 8.5/10
+## 8.5/10
