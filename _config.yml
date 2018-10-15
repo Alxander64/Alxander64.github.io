@@ -5,6 +5,16 @@ title: OG Reviews # site's title
 description: "Reviews" # used by search engines
 
 
+# AUTHORS
+authors:
+  alex:
+    name: Alexander Ursu
+  gaffney:
+    name: Gaffney Luk
+  matthew:
+    name: Matthew Yung
+
+
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
