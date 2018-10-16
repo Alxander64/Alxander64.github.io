@@ -1,6 +1,7 @@
 ---
 layout: post
 title: First Man Review
+author: gaffney_luk
 feature-img: "assets/img/feature-imgs/first-man.jpg"
 thumbnail: "assets/img/thumbnails/first-man.jpg"
 tags: [Movie, Review]

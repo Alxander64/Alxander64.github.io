@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Far Cry 5 Review
+author: matthew_yung
 feature-img: "assets/img/feature-imgs/far-cry-5.jpg"
 thumbnail: "assets/img/thumbnails/far-cry-5.jpeg"
 tags: [Game, Review]
