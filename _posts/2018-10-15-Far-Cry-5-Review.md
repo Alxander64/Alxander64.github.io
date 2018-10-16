@@ -28,4 +28,4 @@ Far Cry 5 also introduces a new mode, Arcade. Players can use the arcade map edi
 
 Overall, I do not think Far Cry 5 is a bad game, but I also don't it's very good. It’s a very mediocre game. The entire package just feels lazy and a step down from its predecessors. Many of the things I enjoyed from the previous games were completely removed, making the overall experience lacklustre. There some new additions that I liked, like the companions or the addition of prepper stashes, but they weren't enough to balance out the monotony of the world traversal, the uncompelling protagonist and supporting cast, and the shallow Arcade mode. Definitely explore Hope County with a friend to maximize your enjoyment of Far Cry 5.
 
-### 6/10
+## 6/10
