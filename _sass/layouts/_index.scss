@@ -71,11 +71,11 @@
             max-width: 100%;
 
             position: relative;
-            top: 50%;
-
+            /*top: 50%;
+            NOW USE INLINE STYLING IN home.html FOR FRONT MATTER INJECTION
             -moz-transform: translateY(-50%);
             -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+            transform: translateY(-50%);*/
 
             -moz-transition-timing-function: ease-out;
             -webkit-transition-timing-function: ease-out;

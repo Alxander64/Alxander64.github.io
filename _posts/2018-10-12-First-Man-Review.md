@@ -6,6 +6,7 @@ feature-img: "assets/img/feature-imgs/first-man.jpg"
 thumbnail: "assets/img/thumbnails/first-man.jpg"
 tags: [Movie, Review]
 excerpt_separator: <!--more-->
+thumbnail_drop: 55
 ---
 
 > 2018’s annual space movie hits closer to home as a dramatic retelling of Neil Armstrong’s journey to be the first man on the Moon.

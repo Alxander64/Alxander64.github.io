@@ -6,6 +6,7 @@ feature-img: "assets/img/feature-imgs/far-cry-5.jpg"
 thumbnail: "assets/img/thumbnails/far-cry-5.jpeg"
 tags: [Game, Review]
 excerpt_separator: <!--more-->
+thumbnail_drop: 60
 ---
 
 > The fifth installment of the beloved franchise is an underwhelming successor.

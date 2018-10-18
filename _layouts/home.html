@@ -13,9 +13,13 @@ layout: default
   <div class="posts">
     {% for post in paginator.posts %}
     <div class="post-teaser">
-      {% if post.thumbnail %} 
+      {% if post.thumbnail %}
       <div class="post-img">
-         <img src="{{ site.baseurl }}/{{ post.thumbnail }}">
+         <img src="{{ site.baseurl }}/{{ post.thumbnail }}"
+         style="top:{{ post.thumbnail_drop }}%;
+                -moz-transform:translateY(-{{ post.thumbnail_drop }}%);
+                -webkit-transform:translateY(-{{ post.thumbnail_drop }}%);
+                transform:translateY(-{{ post.thumbnail_drop }}%);">
       </div>
       {% endif %}
       <span>
