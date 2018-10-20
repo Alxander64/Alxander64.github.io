@@ -1,0 +1,154 @@
+.rating-circle {
+    background: $rc-color;
+    border-radius: $rc-size;
+    box-sizing: border-box;
+    height: $rc-size;
+    position: relative;
+    width: $rc-size;
+    z-index: 15;
+    &.zero  { .rc-count:before { content: "0"; } &.half { .rc-count:before { content:"0.5" } } }
+    &.one   { .rc-count:before { content: "1"; } &.half { .rc-count:before { content:"1.5" } } }
+    &.two   { .rc-count:before { content: "2"; } &.half { .rc-count:before { content:"2.5" } } }
+    &.three { .rc-count:before { content: "3"; } &.half { .rc-count:before { content:"3.5" } } }
+    &.four  { .rc-count:before { content: "4"; } &.half { .rc-count:before { content:"4.5" } } }
+    &.five  { .rc-count:before { content: "5"; } &.half { .rc-count:before { content:"5.5" } } }
+    &.six   { .rc-count:before { content: "6"; } &.half { .rc-count:before { content:"6.5" } } }
+    &.seven { .rc-count:before { content: "7"; } &.half { .rc-count:before { content:"7.5" } } }
+    &.eight { .rc-count:before { content: "8"; } &.half { .rc-count:before { content:"8.5" } } }
+    &.nine  { .rc-count:before { content: "9"; } &.half { .rc-count:before { content:"9.5" } } }
+    &.ten   { .rc-count:before { content: "10"; } }
+}
+
+.rc-pie {
+    background: darken($rc-color, 10%);
+    border-radius: $rc-size;
+    box-sizing: border-box;
+    height: 100%;
+    position: absolute;
+    transform-origin: 100% 50%;
+    width: 50%;
+    border: $rc-border solid $rc-color;
+}
+
+.rc-spinner {
+    background: darken($rc-color, 10%);
+    border-radius: $rc-size 0 0 $rc-size;
+    border-right: none;
+    transform: rotate(0deg);
+    z-index: 2;
+    .rating-circle.zero &       { transform:rotate(0deg)      }
+    .rating-circle.zero.half &  { transform:rotate(18deg)     }
+    .rating-circle.one &        { transform:rotate(36deg)     }
+    .rating-circle.one.half &   { transform:rotate(54deg)     }
+    .rating-circle.two &        { transform:rotate(72deg)     }
+    .rating-circle.two.half &   { transform:rotate(90deg)     }
+    .rating-circle.three &      { transform:rotate(108deg)    }
+    .rating-circle.three.half & { transform:rotate(126deg)    }
+    .rating-circle.four &       { transform:rotate(144deg)    }
+    .rating-circle.four.half &  { transform:rotate(162deg)    }
+    .rating-circle.five &       { transform:rotate(180deg)    }
+    .rating-circle.five.half &  { transform:rotate(198deg)    }
+    .rating-circle.six &        { transform:rotate(216deg)    }
+    .rating-circle.six.half &   { transform:rotate(234deg)    }
+    .rating-circle.seven &      { transform:rotate(252deg)    }
+    .rating-circle.seven.half & { transform:rotate(270deg)    }
+    .rating-circle.eight &      { transform:rotate(288deg)    }
+    .rating-circle.eight.half & { transform:rotate(306deg)    }
+    .rating-circle.nine &       { transform:rotate(324deg)    }
+    .rating-circle.nine.half &  { transform:rotate(342deg)    }
+    .rating-circle.ten &        { transform:rotate(360deg)    }
+}
+
+.rc-filler {
+    border-left: none;
+    border-radius: 0 $rc-size $rc-size 0;
+    left: 50%;
+    z-index: 1;
+    .rating-circle.zero &       { opacity: 0 }
+    .rating-circle.zero.half &  { opacity: 0 }
+    .rating-circle.one &        { opacity: 0 }
+    .rating-circle.one.half &   { opacity: 0 }
+    .rating-circle.two &        { opacity: 0 }
+    .rating-circle.two.half &   { opacity: 0 }
+    .rating-circle.three &      { opacity: 0 }
+    .rating-circle.three.half & { opacity: 0 }
+    .rating-circle.four &       { opacity: 0 }
+    .rating-circle.four.half &  { opacity: 0 }
+    .rating-circle.five &       { opacity: 0 }
+    .rating-circle.five.half &  { opacity: 1 }
+    .rating-circle.six &        { opacity: 1 }
+    .rating-circle.six.half &   { opacity: 1 }
+    .rating-circle.seven &      { opacity: 1 }
+    .rating-circle.seven.half & { opacity: 1 }
+    .rating-circle.eight &      { opacity: 1 }
+    .rating-circle.eight.half & { opacity: 1 }
+    .rating-circle.nine &       { opacity: 1 }
+    .rating-circle.nine.half &  { opacity: 1 }
+    .rating-circle.ten &        { opacity: 1 }
+}
+
+.rc-mask {
+    background: inherit;
+    border-radius: $rc-size 0 0 $rc-size;
+    height: 100%;
+    position: absolute;
+    width: 50%;
+    z-index: 3;
+    .rating-circle.zero &       { opacity: 1 }
+    .rating-circle.zero.half &  { opacity: 1 }
+    .rating-circle.one &        { opacity: 1 }
+    .rating-circle.one.half &   { opacity: 1 }
+    .rating-circle.two &        { opacity: 1 }
+    .rating-circle.two.half &   { opacity: 1 }
+    .rating-circle.three &      { opacity: 1 }
+    .rating-circle.three.half & { opacity: 1 }
+    .rating-circle.four &       { opacity: 1 }
+    .rating-circle.four.half &  { opacity: 1 }
+    .rating-circle.five &       { opacity: 1 }
+    .rating-circle.five.half &  { opacity: 0 }
+    .rating-circle.six &        { opacity: 0 }
+    .rating-circle.six.half &   { opacity: 0 }
+    .rating-circle.seven &      { opacity: 0 }
+    .rating-circle.seven.half & { opacity: 0 }
+    .rating-circle.eight &      { opacity: 0 }
+    .rating-circle.eight.half & { opacity: 0 }
+    .rating-circle.nine &       { opacity: 0 }
+    .rating-circle.nine.half &  { opacity: 0 }
+    .rating-circle.ten &        { opacity: 0 }
+}
+
+.rc-count {
+    background: lighten($rc-color, 10%);
+    border-radius: 100%;
+    //box-shadow:0 0 3px darken($rc-color, 10%);
+    box-sizing: border-box;
+    color: #ffffff;
+    font-family: Tahoma, sans-serif;
+    font-size: ($rc-size / 4);
+    font-weight: bold;
+    height: ($rc-size - ($rc-bar * 2) - ($rc-border * 2));
+    left: 50%;
+    line-height: ($rc-size - ($rc-bar * 2) - ($rc-border * 2));
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: ($rc-size - ($rc-bar * 2) - ($rc-border * 2));
+    z-index: 4;
+    transform: translate(-50%,-50%);
+}
+
+#rating {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  padding:20px;
+  color: #ffffff;
+  text-align:center;
+  margin:0 auto;
+  max-width:(($rc-size * 3) + ($rc-size / 2));
+  padding:50px 0;
+}
+
+.rating-circle {
+  display:inline-block;
+  //margin: 40px 0 0 ($rc-size / 8);
+}

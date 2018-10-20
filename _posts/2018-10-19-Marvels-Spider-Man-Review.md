@@ -7,6 +7,7 @@ thumbnail: "assets/img/thumbnails/marvels-spider-man.jpg"
 tags: [Game, Review]
 excerpt_separator: <!--more-->
 thumbnail_drop: 40
+rating: nine
 ---
 
 > Marvel’s Spider-Man makes itself friendly to all, with well refined mechanics creating an amazing flow, and lets those who put in the extra effort to be spectacular.
@@ -43,5 +44,3 @@ Besides the main story, things slow down in a different type of way when you fin
 # Verdict
 
 Insomniac delivers a gratifying experience with astounding mechanical capabilities, and provides enjoyable content that lets players have fun in their own way, but also rewards those who perfect their skills. Although parts of the main quest have escaped my mind, I enjoyed everything Manhattan had to offer the vigilante Spider-Man, and loved following Peter Parker’s personal journey.
-
-## 9/10

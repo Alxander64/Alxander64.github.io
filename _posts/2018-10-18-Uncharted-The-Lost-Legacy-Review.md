@@ -7,6 +7,7 @@ thumbnail: "assets/img/thumbnails/uncharted-the-lost-legacy.jpg"
 tags: [Game, Review]
 excerpt_separator: <!--more-->
 thumbnail_drop: 35
+rating: eight half
 ---
 
 > What was originally downloadable content for Uncharted 4, now a standalone product, Uncharted: The Lost Legacy introduces some new mechanics and brings a compelling enough story for the 10 year old franchise.
@@ -25,5 +26,3 @@ The antagonist in the game, Asav, seemed out of place. You see him for the first
 # Verdict
 
 In the end, Uncharted: The Lost Legacy is a solid package that left me wanting more. The 7-9 hour campaign packs in tons of content, some familiar and some new with a serviceable storyline. The character interactions and combat that you've come to expect from Naughty Dog really bring the game together.  If you're able to look past the bland villain, there is no reason you shouldn't pick this up, especially if you're a fan of Uncharted.
-
-## 8.5/10

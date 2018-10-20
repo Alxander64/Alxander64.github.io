@@ -7,6 +7,7 @@ thumbnail: "assets/img/thumbnails/first-man.jpg"
 tags: [Movie, Review]
 excerpt_separator: <!--more-->
 thumbnail_drop: 55
+rating: eight half
 ---
 
 > 2018’s annual space movie hits closer to home as a dramatic retelling of Neil Armstrong’s journey to be the first man on the Moon.
@@ -27,5 +28,3 @@ The film covers almost a ten-year period, spanning from Project Gemini to the Mo
 # Conclusion
 
 While it’s a story that has been told time and time again, *First Man* never fails to capture its audience’s attention through its stunning imagery, crisp sound design, and its wonderful performances from its two leads. The moon landing sequence alone makes this a must-see in full IMAX glory. Despite the lacklustre supporting cast, disjointed timeline, and perhaps unnecessary family drama, *First Man* is one giant leap for cinema.
-
-## 8.5/10

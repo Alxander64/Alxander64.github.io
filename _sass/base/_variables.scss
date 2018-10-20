@@ -38,6 +38,12 @@ $feature-image-size: cover; // options include "cover", "contain", "auto"
 $header-desc-background-color: $theme-color;
 $header-desc-text-color: #FFF;
 
+// Rating circle
+$rc-size: 200px;
+$rc-bar: 10px;
+$rc-border: 5px;
+$rc-color: #1F99CD;
+
 // Mobile display
 $break: 768px;
 $sm-break: 450px;
