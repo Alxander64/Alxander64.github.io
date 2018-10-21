@@ -25,12 +25,14 @@ theme_settings:
 
   # Header and footer text
   header_text: >
-     <h1>OG Reviews</h1>
+      <h1>OG Reviews</h1>
   header_text_feature_image: assets/img/feature-imgs/triangular.jpeg
-  footer_text: # > Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+  footer_text: >
+      OG Reviews
+  # Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
   # Icons
-  rss: true  # Make sure you created a feed.xml with feed.xml layout
+  rss: false  # Make sure you created a feed.xml with feed.xml layout
   email_address: # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
@@ -70,7 +72,7 @@ theme_settings:
   # Scripts / Features
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
   disqus_shortname:
-  katex: true # Enable if using math markup
+  katex: false # Enable if using math markup
 
   special_page:
     search:
@@ -116,4 +118,4 @@ sass:
   style: :compressed
 plugins: [jekyll-paginate, jekyll-seo-tag]
 #theme: type-on-strap # Uncomment if using the theme as a jekyll theme gem
-exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png", "package.json", "node_modules", "gulpfile.js", ".idea/*"]
+exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md", "package.json", "node_modules", "gulpfile.js", ".idea/*"]
