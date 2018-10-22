@@ -32,6 +32,8 @@ layout: default
               </a>
             </h1>
             <p class="meta">
+              {% assign author = site.authors[post.author] %}
+              {{ author.name }} -
               {{ post.date | date: "%B %-d, %Y" }}
             </p>
           </header>
