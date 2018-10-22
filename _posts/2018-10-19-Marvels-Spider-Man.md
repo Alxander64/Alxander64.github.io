@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Marvel's Spider-Man Review
+title: Marvel's Spider-Man
 author: alexander_ursu
 feature-img: "assets/img/feature-imgs/marvels-spider-man.jpeg"
 thumbnail: "assets/img/thumbnails/marvels-spider-man.jpg"
