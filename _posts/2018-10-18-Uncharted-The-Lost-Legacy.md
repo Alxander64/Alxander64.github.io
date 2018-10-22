@@ -4,7 +4,7 @@ title: Uncharted&#58; The Lost Legacy
 author: matthew_yung
 feature-img: "assets/img/feature-imgs/uncharted-the-lost-legacy.jpg"
 thumbnail: "assets/img/thumbnails/uncharted-the-lost-legacy.jpg"
-tags: [Game, Review]
+tags: [Game]
 excerpt_separator: <!--more-->
 thumbnail_drop: 35
 rating: eight half

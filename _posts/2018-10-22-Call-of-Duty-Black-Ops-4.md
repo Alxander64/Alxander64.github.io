@@ -4,7 +4,7 @@ title: Call of Duty&#58; Black Ops 4
 author: matthew_yung
 feature-img: "assets/img/feature-imgs/call-of-duty-black-ops-4.jpg"
 thumbnail: "assets/img/thumbnails/call-of-duty-black-ops-4.jpg"
-tags: [Game, Review]
+tags: [Game]
 excerpt_separator: <!--more-->
 thumbnail_drop: 40
 rating: eight half

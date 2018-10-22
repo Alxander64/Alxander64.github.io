@@ -4,7 +4,7 @@ title: Marvel's Spider-Man
 author: alexander_ursu
 feature-img: "assets/img/feature-imgs/marvels-spider-man.jpg"
 thumbnail: "assets/img/thumbnails/marvels-spider-man.jpg"
-tags: [Game, Review]
+tags: [Game]
 excerpt_separator: <!--more-->
 thumbnail_drop: 50
 rating: nine
