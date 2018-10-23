@@ -3,10 +3,12 @@
 [
   {% if site.theme_settings.special_page.search.enabled %}
    {% for post in site.posts %}
+      {% assign author = site.authors[post.author] %}
       {
         "title"    : "{{ post.title | escape }}",
         "category" : "{{ post.category }}",
         "tags"     : "{{ post.tags | join: ', ' | prepend: " " }}",
+        "author"   : "{{ author.name }}",
         "url"      : "{{ site.baseurl }}{{ post.url }}",
         "date"     : "{{ post.date | date: "%B %-d, %Y" }}",
         "excerpt"  : {{ post.content | truncate: '250' | jsonify }},
@@ -15,11 +17,13 @@
    {% endfor %}
    {% if site.portfolio.size > 0 %},{% endif %}
    {% for page in site.portfolio %}
+     {% assign author = site.authors[post.author] %}
      {
        {% if page.title != nil %}
           "title"    : "{{ page.title | escape }}",
           "category" : "{{ page.category }}",
           "tags"     : "{{ page.tags | join: ', ' | prepend: " " }}",
+          "author"   : "{{ author.name }}",
           "url"      : "{{ site.baseurl }}{{ page.url }}",
           "date"     : "{{ page.date | date: "%B %-d, %Y" }}",
           "excerpt"  : {{ page.content | truncate: '250' | jsonify }},
