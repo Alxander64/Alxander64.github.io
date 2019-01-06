@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-feature-img: "assets/img/feature-imgs/triangular.jpeg"
+feature-img: "assets/img/triangular.jpeg"
 ---
 
-Hear about us soon!
+University kids writing reviews.

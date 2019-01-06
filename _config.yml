@@ -2,7 +2,7 @@
 baseurl: ""
 url: "https://Alxander64.github.io"
 title: OG Reviews # site's title
-description: "Reviews" # used by search engines
+description: "Video Game and Movie Reviews" # used by search engines
 
 
 # AUTHORS
@@ -20,13 +20,13 @@ theme_settings:
   # Meta
   title: OG Reviews # blog's title
   avatar: assets/img/triangle.svg
-  favicon: assets/favicon.ico
+  favicon: assets/img/favicon.ico
   gravatar: # Email MD5 hash
 
   # Header and footer text
   header_text: >
       <h1>OG Reviews</h1>
-  header_text_feature_image: assets/img/feature-imgs/triangular.jpeg
+  header_text_feature_image: assets/img/triangular.jpeg
   footer_text: >
       OG Reviews
   # Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
