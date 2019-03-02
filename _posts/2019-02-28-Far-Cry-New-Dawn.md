@@ -23,6 +23,8 @@ Several new mechanics were introduced in New Dawn. You now have a camp that you 
 
 A new mode called Expeditions are introduced in New Dawn where you are taken to a different place, far from Hope County to complete a single extraction. In return, you are rewarded with a healthy amount of resources and materials, allowing you to craft and upgrade weapons at your disposal. The game only consists of three of these expeditions, each with three difficulties. I would have like to see some more variety in the mission structures of the expeditions and overall would have liked a couple more, because they were actually quite enjoyable.
 
+![Recycle Bin of Fun](/assets/img/in-line/far-cry-new-dawn.jpg)
+
 # Verdict
 
 Overall, Far Cry New Dawn does not do nearly enough to keep the game feeling new. If you’ve played and enjoyed Far Cry 5 and do not mind shooting, looting and hunting in a slightly different Hope County, then pick it up. I appreciate that the game takes many of the issues I had with Far Cry 5 and tries to improve on them, while trying to introduce and change things up to keep it from feeling like last years entry. However, for the price point of $50, you really are getting what you paid for you, a shorter, more contained Far Cry experience. The game is pretty short and once you are finished with the campaign and the few expeditions, there is really no reason to keep playing.
