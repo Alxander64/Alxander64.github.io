@@ -6,7 +6,7 @@ feature-img: "assets/img/feature-imgs/middle-earth-shadow-of-mordor.jpg"
 thumbnail: "assets/img/thumbnails/middle-earth-shadow-of-mordor.jpg"
 tags: [Game]
 excerpt_separator: <!--more-->
-thumbnail_drop: 5
+thumbnail_drop: 15
 rating: seven
 ---
 
