@@ -6,7 +6,7 @@ feature-img: "assets/img/feature-imgs/crackdown-3-campaign.jpg"
 thumbnail: "assets/img/thumbnails/crackdown-3-campaign.jpg"
 tags: [Game]
 excerpt_separator: <!--more-->
-thumbnail_drop: 35
+thumbnail_drop: 55
 rating: six half
 ---
 
