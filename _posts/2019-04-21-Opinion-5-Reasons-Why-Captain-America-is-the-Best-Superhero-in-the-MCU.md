@@ -6,7 +6,7 @@ feature-img: "assets/img/feature-imgs/opinion-captain-america.jpg"
 thumbnail: "assets/img/thumbnails/opinion-captain-america.jpg"
 tags: [Movie]
 excerpt_separator: <!--more-->
-thumbnail_drop: 15
+thumbnail_drop: 30
 ---
 
 > Going into *Avenger’s: Endgame*, God’s Righteous Man, Captain America, is the #1 superhero of the Marvel Cinematic Universe.
