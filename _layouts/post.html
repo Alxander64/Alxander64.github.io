@@ -20,7 +20,9 @@ layout: default
   </section>
 
   <!-- Rating -->
-  {% include rating.html %}
+  {% if page.rating %}
+    {% include rating.html %}
+  {% endif %}
 
   <!-- Author -->
   {% include author.html %}
