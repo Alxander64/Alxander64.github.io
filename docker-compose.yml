@@ -1,0 +1,12 @@
+# 'docker-compose up' and go to localhost:8080 to view
+# 'docker-compose down' to stop and cleanup
+
+version: '2'
+
+services:
+    jekyll-serve:
+        image: bretfisher/jekyll-serve
+        ports:
+            - '8080:4000'
+        volumes:
+            - .:/site
